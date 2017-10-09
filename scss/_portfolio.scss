@@ -57,3 +57,18 @@
     }
   }
 }
+
+.portfolio-description {
+  margin: 0% 4%;
+  line-height: 180%;
+  // margin-left: 4%;
+  // margin-top: 4%;
+  // margin-bottom: 4%;
+  // margin-right: 4%;
+  // margin: 4%;
+  @include sans-serif-font;
+}
+
+#about {
+  border: 5%;
+}

@@ -247,6 +247,23 @@ header.masthead {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
 
+.portfolio-description {
+  margin: 0% 4%;
+  line-height: 180%;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+
+#about {
+  border: 5%; }
+
+#bio-caption {
+  text-align: center; }
+
+#about a {
+  color: #000000; }
+
+#about img {
+  width: 75%; }
+
 .call-to-action {
   padding: 50px 0; }
   .call-to-action h2 {
