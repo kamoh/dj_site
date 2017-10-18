@@ -77,6 +77,15 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #222222; }
 
+div.portfolio-description > li {
+  list-style-type: none; }
+
+div.portfolio-description li:before {
+  font-family: FontAwesome;
+  content: '\f0da';
+  padding-right: 5px;
+  margin: 2px; }
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
@@ -163,14 +172,16 @@ header.masthead {
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      text-shadow: 2px 2px 15px #000000; }
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
     header.masthead .header-content .header-content-inner p {
       font-size: 16px;
-      font-weight: 300;
+      font-weight: 500;
       margin-bottom: 50px;
-      color: rgba(255, 255, 255, 0.7); }
+      color: white;
+      text-shadow: 0px 0px 20px #000; }
   @media (min-width: 768px) {
     header.masthead {
       height: 100%;
@@ -257,6 +268,9 @@ header.masthead {
 
 #bio-caption {
   text-align: center; }
+
+.bio-photo img {
+  border-radius: 80px; }
 
 #about a {
   color: #000000; }

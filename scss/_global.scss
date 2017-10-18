@@ -89,3 +89,15 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: $gray-darker;
 }
+
+// Bullets for portfolio section
+div.portfolio-description > li {
+  list-style-type: none;
+}
+
+div.portfolio-description li:before {
+  font-family: FontAwesome;
+  content:'\f0da';
+  padding-right: 5px;
+  margin: 2px;
+}
